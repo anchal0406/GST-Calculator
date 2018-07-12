@@ -2,8 +2,8 @@
 class FinalSellingPriceFurniture extends GSTCalculator
 {
 	void finalSellingPriceFurniture(int unit,double initialPriceUnit)
-    {
-        //Stores furniture gst value of base class
+    	{
+        	//Stores furniture gst value of base class
 		double gst = super.gstFurniture;
 		System.out.println(gst);
 		double finalPriceFurniture = (initialPriceUnit+gst)*unit;
